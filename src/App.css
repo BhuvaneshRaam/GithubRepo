@@ -1,3 +1,7 @@
+a {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+}
 .text-grey {
   color: #cdcdcd !important;
 }
