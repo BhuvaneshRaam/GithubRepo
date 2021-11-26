@@ -111,7 +111,14 @@ export default function Layout(props) {
           </a>
         </nav>
       </section>
-      <section className="container-fluid">{props.children}</section>
+      <section>{props.children}</section>
+
+      <section class = "footer">
+        <div>
+          <hr></hr>
+        </div>
+      </section>
+
     </div>
   );
 }

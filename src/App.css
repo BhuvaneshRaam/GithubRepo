@@ -9,3 +9,8 @@ a {
 .main-head > * {
   height: 6vh;
 }
+
+.image-text{
+  z-index: 1;
+  top:180px;
+}
