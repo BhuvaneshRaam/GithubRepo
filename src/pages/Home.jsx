@@ -13,7 +13,7 @@ export default function Home() {
             Oh. So. Pro.
           </div>
           <div class="row">
-            <img src={iphone13pro} />
+            <img src={iphone13pro} alt="iphone13pro" />
           </div>
         </div>
       </section>
