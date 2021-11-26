@@ -1,15 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from './pages/Home';
-import Layout from './components/Layout';
+import "./App.css";
+import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
+import Home from "./pages/Home";
 
 export default function App() {
-  return(
+  return (
     <Router>
-          <Switch>
-                <Route exact path = "/Home" component = {Home} />
-          </Switch>
+      <Routes>
+        <Route exact path="/Home" component={Home} />
+      </Routes>
     </Router>
-  )
+  );
 }
