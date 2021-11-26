@@ -1,3 +1,7 @@
-.text-grey{
-  color:#cdcdcd;
+.text-grey {
+  color: #cdcdcd !important;
+}
+
+.main-head > * {
+  height: 6vh;
 }
