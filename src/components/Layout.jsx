@@ -1,7 +1,7 @@
 export default function Layout() {
   return (
     <section class="header">
-      <nav class="navbar navbar-dark bg-dark container-fluid p-0 d-flex justify-content-center align-items-center main-head">
+      <nav class="navbar navbar-dark bg-dark container-fluid p-0 d-flex justify-content-evenly align-items-center main-head">
         <a
           class="navbar-brand p-2 d-flex justify-content-center align-items-center"
           href="/"
@@ -23,6 +23,30 @@ export default function Layout() {
           href="/"
         >
           Store
+        </a>
+        <a
+          class="text-decoration-none text-grey d-flex justify-content-center align-items-center"
+          href="/"
+        >
+          Mac
+        </a>
+        <a
+          class="text-decoration-none text-grey d-flex justify-content-center align-items-center"
+          href="/"
+        >
+          iPad
+        </a>
+        <a
+          class="text-decoration-none text-grey d-flex justify-content-center align-items-center"
+          href="/"
+        >
+          iPhone
+        </a>
+        <a
+          class="text-decoration-none text-grey d-flex justify-content-center align-items-center"
+          href="/"
+        >
+          Watch
         </a>
       </nav>
     </section>
