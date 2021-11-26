@@ -1,6 +1,4 @@
-import iphone13pro from "../images/iphone13pro.jpg";
-
-export default function Layout() {
+export default function Layout(props) {
   return (
     <div>
       <section class="header">
@@ -113,20 +111,7 @@ export default function Layout() {
           </a>
         </nav>
       </section>
-
-      <section>
-        <div class="container-fluid">
-        <div class=" row d-flex justify-content-center align-items-center display-3">
-            iPhone 13 Pro
-          </div>
-          <div class="row d-flex justify-content-center align-items-center text-center">
-            Oh. So. Pro.
-          </div>
-          <div class="row">
-            <img src={iphone13pro} />
-          </div>
-        </div>
-      </section>
+      <section className="container-fluid">{props.children}</section>
     </div>
   );
 }
