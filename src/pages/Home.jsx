@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Layout from "../components/Layout";
 import iphone13pro from "../images/iphone13pro.jpg";
-import iphone13 from "../images/iphone13.jpeg";
+// import iphone13 from "../images/iphone13.jpeg";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
@@ -36,7 +36,7 @@ export default function Home() {
             <img
               src={iphone13pro}
               alt="iphone13pro"
-              className="position-relative"
+              className="position-relative p-0"
             />
           </div>
         </div>
