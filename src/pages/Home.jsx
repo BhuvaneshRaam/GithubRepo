@@ -43,7 +43,7 @@ export default function Home() {
         <div class="d-flex justify-content-center container-fluid  image align-items-center mt-3">
         <div className="d-flex flex-column align-items-center image-text-1 position-absolute text-center w-75">
             <h2 class="heading fw-bold display-1">iPhone 13</h2>
-            <div class="display-5">Your new superpower.</div>
+            <div class="display-5">Your new superpower. Buy me 3 please</div>
             <div className="d-flex justify-content-around my-3 w-25 fs-4">
               <a href="/" className="d-flex align-items-end">
                 Learn More{" "}
