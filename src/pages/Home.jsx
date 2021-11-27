@@ -11,7 +11,7 @@ export default function Home() {
           <div className="d-flex flex-column align-items-center image-text position-absolute text-center w-75">
             <h2 class="heading fw-bold display-1">iPhone 13 Pro</h2>
             <div class = "display-5">Oh. So. Pro.</div>
-            <div className = "d-flex justify-content-around my-3 w-25 fs-3">
+            <div className = "d-flex justify-content-around my-3 w-25 fs-4">
               <a className = "d-flex align-items-end">Learn More <FontAwesomeIcon className = "ms-1 mb-1" icon = {faAngleRight} color = "#8A8280" /></a>
               <a className = "d-flex align-items-end">Buy Now <FontAwesomeIcon className = "ms-1 mb-1" icon = {faAngleRight} color = "#8A8280" /></a>
             </div>

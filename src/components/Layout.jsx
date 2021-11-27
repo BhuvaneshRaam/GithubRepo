@@ -113,12 +113,52 @@ export default function Layout(props) {
       </section>
       <section>{props.children}</section>
 
-      <section class = "footer">
-        <div>
-          <hr></hr>
+      <section class="footer d-flex flex-column justify-content-center align-items-center">
+        <div className=" w-75 ">
+          <hr />
+          <div className="row align-self-between">
+            <div className="col">
+              <b>Shop and Learn</b>
+              <div className="list-unstyled footer-list">
+                <li>Store</li>
+                <li>Mac</li>
+                <li>iPad</li>
+                <li>iPhone</li>
+                <li>Watch</li>
+                <li>AirPods</li>
+                <li>TV & Home</li>
+                <li>iPod touch</li>
+                <li>AirTag</li>
+                <li>Accessories</li>
+                <li>Gift Cards</li>
+              </div>
+            </div>
+            <div className="col">
+              <b>Services</b>
+              <div className="list-unstyled footer-list">
+                <li>Apple Music</li>
+                <li>Apple TV+</li>
+                <li>Apple Fitness+</li>
+                <li>Apple News+</li>
+                <li>Apple Arcade</li>
+                <li>iCloud</li>
+                <li>Apple One</li>
+                <li>Apple Card</li>
+                <li>Apple Books</li>
+                <li>Apple Podcasts</li>
+                <li class = "mb-4-5">App Store</li>
+                <b class = "">Account</b>
+                <li>Manage Your Apple ID</li>
+                <li>Apple Store Account</li>
+                <li>iCloud.com</li>
+              </div>
+            </div>
+            <div className="col">Apple Store</div>
+            <div className="col">For Business</div>
+            <div className="col">Apple Values</div>
+          </div>
         </div>
       </section>
-
     </div>
   );
 }

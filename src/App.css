@@ -12,5 +12,21 @@ a {
 
 .image-text{
   z-index: 1;
-  top:180px;
+  top:150px;
+}
+
+hr{
+  color: #d2d2d7;
+}
+
+.footer{
+  background-color:#f5f5f7;
+}
+
+.footer-list > * {
+  margin-top: .8em;
+}
+
+.mb-4-5{
+  margin-bottom: 1.7rem !important;
 }
