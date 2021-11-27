@@ -114,9 +114,9 @@ export default function Layout(props) {
       <section>{props.children}</section>
 
       <section class="footer d-flex flex-column justify-content-center align-items-center">
-        <div className=" w-75 ">
+        <div className="w-75">
           <hr />
-          <div className="row align-self-between">
+          <div className="row align-self-between mb-4">
             <div className="col">
               <b>Shop and Learn</b>
               <div className="list-unstyled footer-list">
@@ -146,16 +146,66 @@ export default function Layout(props) {
                 <li>Apple Card</li>
                 <li>Apple Books</li>
                 <li>Apple Podcasts</li>
-                <li class = "mb-4-5">App Store</li>
-                <b class = "">Account</b>
+                <li class="mb-4-5">App Store</li>
+                <b>Account</b>
                 <li>Manage Your Apple ID</li>
                 <li>Apple Store Account</li>
                 <li>iCloud.com</li>
               </div>
             </div>
-            <div className="col">Apple Store</div>
-            <div className="col">For Business</div>
-            <div className="col">Apple Values</div>
+            <div className="col">
+              <b>Apple Store</b>
+              <div className="list-unstyled footer-list">
+                <li>Find a Store</li>
+                <li>Genius Bar</li>
+                <li>Today at Apple</li>
+                <li>Apple Camp</li>
+                <li>Apple Store App</li>
+                <li>Refurbished and Clearance</li>
+                <li>Financing</li>
+                <li>Apple Trade In</li>
+                <li>Order Status</li>
+                <li>Shopping Help</li>
+              </div>
+            </div>
+            <div className="col">
+              <b>For Business</b>
+              <div className="list-unstyled footer-list">
+                <li>Apple and Business</li>
+                <li className="mb-4-5">Shop for Business</li>
+                <b>For Education</b>
+                <li>Apple and Education</li>
+                <li>Shop for K-12</li>
+                <li className="mb-4-5">Shop for College</li>
+                <b>For Healthcare</b>
+                <li>Apple in Healthcare</li>
+                <li>Health on Apple Watch</li>
+                <li className="mb-4-5">Health records on iPhone</li>
+                <b>For Government</b>
+                <li>Shop for Government</li>
+                <li>Shop for Veterans and Military</li>
+              </div>
+            </div>
+            <div className="col">
+              <b>Apple Values</b>
+              <div className="list-unstyled footer-list">
+                <li>Accessibility</li>
+                <li>Education</li>
+                <li>Environment</li>
+                <li>Inclusion and Diversity</li>
+                <li>Privacy</li>
+                <li>Racial Equity and Justice</li>
+                <li className="mb-4-5">Supplier Responsibility</li>
+                <b>About Apple</b>
+                <li>Newsroom</li>
+                <li>Apple Ledership</li>
+                <li>Career Opportunities</li>
+                <li>Investors</li>
+                <li>Ethics and Compliance</li>
+                <li>Events</li>
+                <li>Contact Apple</li>
+              </div>
+            </div>
           </div>
         </div>
       </section>
