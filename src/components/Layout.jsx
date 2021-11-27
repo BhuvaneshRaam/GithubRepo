@@ -1,8 +1,8 @@
 export default function Layout(props) {
   return (
     <div>
-      <section class="header">
-        <nav class="navbar navbar-dark bg-dark container-fluid p-0 d-flex justify-content-evenly align-items-center main-head">
+      <section class="header sticky-top justify-content-center">
+        <nav class="navbar-dark container-fluid p-0 d-flex justify-content-between align-items-center main-head w-75">
           <a
             class="navbar-brand p-2 d-flex justify-content-center align-items-center"
             href="/"
@@ -208,6 +208,23 @@ export default function Layout(props) {
             </div>
           </div>
         </div>
+        <div className=" w-75 ">
+          <hr />
+          <div className="row align-self-between">
+            <div className="col-auto">
+              Please don't copyright. It's just a clone.
+            </div>
+            <div className="col-auto">
+              Privacy Policy&nbsp;&nbsp;|&nbsp;&nbsp;Terms of
+              Use&nbsp;&nbsp;|&nbsp;&nbsp;Sales and
+              Refunds&nbsp;&nbsp;|&nbsp;&nbsp;Legal&nbsp;&nbsp;|&nbsp;&nbsp;Site
+              Map
+            </div>
+            <div className="col d-flex justify-content-end">India</div>
+          </div>
+        </div>
+        <br />
+        <br />
       </section>
     </div>
   );

@@ -5,7 +5,10 @@ a {
 .text-grey {
   color: #cdcdcd !important;
 }
-
+.header{
+  background-color: rgba(56,52,52,0.96);
+  backdrop-filter: blur(10px);
+}
 .main-head > * {
   height: 6vh;
 }
