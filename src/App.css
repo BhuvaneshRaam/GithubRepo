@@ -1,7 +1,4 @@
-html,
-body {
-  background-color: black !important;
-}
+
 
 a {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
@@ -21,6 +18,12 @@ a {
 .image-text {
   z-index: 1;
   top: 150px;
+}
+
+.image-text-1{
+  z-index: 1;
+  top:1140px;
+  color : white;
 }
 
 hr {
