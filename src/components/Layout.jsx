@@ -39,7 +39,7 @@ export default function Layout(props) {
           </a>
           <a
             class="text-decoration-none text-grey d-flex justify-content-center align-items-center"
-            href="/"
+            href="/iphone"
           >
             iPhone
           </a>
