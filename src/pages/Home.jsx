@@ -2,6 +2,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Layout from "../components/Layout";
 import iphone13pro from "../images/iphone13pro.jpg";
 import iphone13 from "../images/iphone13.jpeg";
+import airpodsCard from "../images/airpodsCard.jpeg";
+import airpods3 from "../images/airpods3.jpeg";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
@@ -41,7 +43,7 @@ export default function Home() {
           </div>
         </div>
         <div class="d-flex justify-content-center container-fluid  image align-items-center mt-3">
-        <div className="d-flex flex-column align-items-center image-text-1 position-absolute text-center w-75">
+          <div className="d-flex flex-column align-items-center image-text-1 position-absolute text-center w-75">
             <h2 class="heading fw-bold display-1">iPhone 13</h2>
             <div class="display-5">Your new superpower. Buy me 3 please</div>
             <div className="d-flex justify-content-around my-3 w-25 fs-4">
