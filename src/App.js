@@ -1,7 +1,7 @@
 import "./App.css";
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import Home from "./pages/Home";
-import Iphone from "./pages/iPhone.jsx";
+import Iphone from "./pages/iphone.jsx";
 
 export default function App() {
   return (
