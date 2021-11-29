@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Layout from "../components/Layout";
 import iphone13pro from "../images/iphone13pro.jpg";
-import iphone13 from "../images/iphone13.jpeg";
+import iphone13plus from "../images/iphone13plus.jpeg";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function iphone() {
@@ -36,15 +36,13 @@ export default function iphone() {
             <img
               src={iphone13pro}
               alt="iphone13pro"
-              className="position-relative"
+              className="position-relative p-0"
             />
           </div>
-        </div>
-
-        <div class="d-flex justify-content-center container-fluid  image align-items-center mt-3">
-          <div className="d-flex flex-column align-items-center image-text-1 position-absolute text-center w-75">
-            <h2 class="heading fw-bold display-1">iPhone 13</h2>
-            <div class="display-5">Your new superpower. Buy me 3 please</div>
+          <div>
+            <div className="d-flex flex-column align-items-center image-text position-absolute text-center w-75">
+            <h2 class="heading fw-bold display-1">iPhone 13 Pro</h2>
+            <div class="display-5">Oh. So. Pro.</div>
             <div className="d-flex justify-content-around my-3 w-25 fs-4">
               <a href="/" className="d-flex align-items-end">
                 Learn More{" "}
@@ -65,12 +63,13 @@ export default function iphone() {
             </div>
           </div>
 
-          <div class="row p-0">
+          <div class="row">
             <img
-              src={iphone13}
-              alt="iphone13"
-              className="position-relative px-0"
+              src={iphone13pro}
+              alt="iphone13pro"
+              className="position-relative p-0"
             />
+          </div>
           </div>
         </div>
       </section>
