@@ -74,20 +74,28 @@ export default function Home() {
             />
           </div>
         </div>
-        <div class="row">
-          <div class="col-6">
-            <img
-              src={airpodsCard}
-              alt="gifts"
-              className="position-relative px-0"
-            />
+        <div className="d-flex justify-content-between align-items-center py-3">
+          <div className="col">
+            <img className="container img-fluid" src={airpodsCard} alt="" />
           </div>
-          <div class="col-6">
-            <img
-              src={airpods3}
-              alt="airpods3"
-              className="position-relative px-0"
-            />
+          <div className="col">
+            <img className="container img-fluid" src={airpods3} alt="" />
+          </div>
+        </div>
+        <div className="d-flex justify-content-between align-items-center py-3">
+          <div className="col">
+            <img className="container img-fluid" src={airpodsCard} alt="" />
+          </div>
+          <div className="col">
+            <img className="container img-fluid" src={airpods3} alt="" />
+          </div>
+        </div>
+        <div className="d-flex justify-content-between align-items-center py-3">
+          <div className="col">
+            <img className="container img-fluid" src={airpodsCard} alt="" />
+          </div>
+          <div className="col">
+            <img className="container img-fluid" src={airpods3} alt="" />
           </div>
         </div>
       </section>
