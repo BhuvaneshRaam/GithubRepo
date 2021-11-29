@@ -74,6 +74,22 @@ export default function Home() {
             />
           </div>
         </div>
+        <div class="row">
+          <div class="col-6">
+            <img
+              src={airpodsCard}
+              alt="gifts"
+              className="position-relative px-0"
+            />
+          </div>
+          <div class="col-6">
+            <img
+              src={airpods3}
+              alt="airpods3"
+              className="position-relative px-0"
+            />
+          </div>
+        </div>
       </section>
     </Layout>
   );
